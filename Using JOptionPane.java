@@ -1,3 +1,4 @@
+package com.codewithme;
 //example one for today's class
 import javax.swing.JOptionPane;//Program uses JOptionPane
 // to import the feauture to the code
