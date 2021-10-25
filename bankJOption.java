@@ -10,7 +10,7 @@ Use any control statements you hav learntand make your program GUI based*/
 // C          - 1.5
 // X          - 5
 
-//will be edited on short notice
+//will be edited on further notice
 public class Bank {
   
   public static void bank(String[] agrs){
