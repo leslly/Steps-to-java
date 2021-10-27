@@ -10,22 +10,24 @@ Use any control statements you hav learntand make your program GUI based*/
 // C          - 1.5
 // X          - 5
 
-//Having a file error but run this and tell me how it is
-
+package com.codewithme;
+//will be edited on further notice
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class Bank {
+public class task3 {
 
-    public static void bank(String[] agrs){
+    public static void main(String[] agrs){
         Scanner in = new Scanner(System.in);
 
-        char type  = JOptionPane.showInputDialog(null,"Enter Type of account");
+        String type  = JOptionPane.showInputDialog(null,"Enter Type of account");
+        String am=JOptionPane.showInputDialog(null,"Enter Amount");
 
-        if(type == 'A'){
+        int Amount = Integer.parseInt(am);
 
-            int Amount = Integer.parseInt(JOptionPane.showInputDialog(null,"Enter any amount");
-                Amount *= 1.5 ;
+        if(type == "A"){
+
+            Amount *= 1.5 ;
             String res = String.format("Account type:%c\nIntrest loan:%d",type,Amount);
 
             // JOptionPane.showMessageDialog(null,res,name + "\'s Semesters GPA",
