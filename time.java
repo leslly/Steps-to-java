@@ -35,7 +35,7 @@ Output data format
 
 Just one number: seconds between these two moments of time. It's 51511 (14 hours, 18 minutes and 31 seconds) in our example.
 
- Report a typo
+ 
 Sample Input 1:
 
 1
